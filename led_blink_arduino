@@ -1,0 +1,16 @@
+
+int led =3;
+void setup() {
+  // initialisation
+pinMode(led, OUTPUT);
+}
+
+void loop() {
+  // send 5V to output 3
+digitalWrite (led, HIGH);
+//Wait for 3 secs
+delay (3000);
+// send 0V to output 3
+digitalWrite (led, LOW);
+delay (3000);
+}
